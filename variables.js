@@ -9,6 +9,11 @@ n = 20;         //val can be updated
 //let n = 20    //cant be redeclared
 console.log(n);
 
+//STRING 
+let n = "baby";
+let m = `baby`;     //template literal
+let mm = 'myyyy ${m}'       //string interpolation- insert var directly in a string literal
+
 let x = "10";
 let y = 5;
 let z = "hiii";
@@ -20,6 +25,7 @@ console.log(+x+y);
 console.log(z + y);
 console.log(z + x);
 
+console.log(typeof x, typeof y)
 
 
 const n = 100;

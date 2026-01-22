@@ -1,18 +1,20 @@
-var n = 5;
-console.log(n);
+var t = 5;
+console.log(t);
 
-var n = 20;     //reassigning is allowed
-console.log(n);
+var t = 20;     //reassigning is allowed
+console.log(t);
 
-let n = 10;
-n = 20;         //val can be updated
+let b = 10;
+b = 20;         //val can be updated
 //let n = 20    //cant be redeclared
-console.log(n);
+console.log(b);
 
 //STRING 
 let n = "baby";
 let m = `baby`;     //template literal
-let mm = 'myyyy ${m}'       //string interpolation- insert var directly in a string literal
+let mm = `myyyy ${m}`     //string interpolation- insert var directly in a string literal
+console.log(mm)
+
 
 let x = "10";
 let y = 5;
@@ -28,9 +30,9 @@ console.log(z + x);
 console.log(typeof x, typeof y)
 
 
-const n = 100;
-//n = 200   //cant be redeclared or updated
-console.log(n);
+const p = 100;
+//p = 200   //cant be redeclared or updated
+console.log(p);
 
 console.log(null === undefined)
 //Result: false     
